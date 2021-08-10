@@ -1,0 +1,17 @@
+.forecast-preview {
+  padding: 20px 20px;
+  border: 2px solid rgb(148, 6, 136);
+
+  p {
+    max-width: 50ch;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: unset;
+    &:not(:last-of-type) {
+      margin-bottom: 0.85rem;
+    }
+    &:last-of-type {
+      margin-bottom: 0.85rem;
+    }
+  }
+}
